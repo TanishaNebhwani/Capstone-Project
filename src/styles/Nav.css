@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #fff;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px ;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    gap: 60px;
+
+}
+ .navbar a{
+    text-decoration: none;
+    color: #495E57;
+    font-weight: 400;
+ }
+ .navbar a:hover, .navbar a.active{
+    text-decoration: underline;
+    font-weight: 600;
+ }

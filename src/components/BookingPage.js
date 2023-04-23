@@ -1,5 +1,7 @@
+import '../styles/Booking.css';
+import BookingForm from './BookingForm';
 function BookingPage(){
-    return (<></>)
+    return (<><BookingForm></BookingForm></>)
 }
 
 export default BookingPage;
