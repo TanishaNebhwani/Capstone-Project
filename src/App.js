@@ -14,6 +14,7 @@ function App() {
         <Nav></Nav>
       </header>
       <main>
+        <h1>Learn react</h1>
       <Hero></Hero>
         <Routes>
         <Route index element={<HomePage />}></Route>
